@@ -1,0 +1,7 @@
+README.txt
+setup.py
+mrcnn.egg-info/PKG-INFO
+mrcnn.egg-info/SOURCES.txt
+mrcnn.egg-info/dependency_links.txt
+mrcnn.egg-info/requires.txt
+mrcnn.egg-info/top_level.txt
