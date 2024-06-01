@@ -27,8 +27,15 @@ import tensorflow.keras.models as KM
 
 
 
-from mrcnn import utils
+# Root directory of the project
+ROOT_DIR = os.path.abspath("../")
+
+# Import Mask RCNN
 import sys
+sys.path.append(ROOT_DIR)  # To find local version of the library
+from mrcnn import utils
+
+# from mrcnn import utils
 from parallel_model import ParallelModel
 
 # Requires TensorFlow 2.0+
